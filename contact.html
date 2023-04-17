@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+
+}
+
+.about-section {
+  padding: 1px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 8px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button,a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #474e5d;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-decoration:none;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Our Teams</h1>
+  <h3>Knowledge is Best When It's Shared.</h3>
+ 
+</div>
+<center>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="s.jpeg" alt="picc" style="width:40%">
+      <div class="container">
+        <h2>SHIVANI</h2>
+        <p class="title">Designer & Developer</p>
+        <p>Hello I am shivani Welcome to Helpage</p>
+        
+		<p>E-mail : shivishakya2806@gmail.com</p>
+		<p>Mob : +91 9354574304</p>
+        <p><button class="button"><a href="https://shivanishakya06.github.io/cv/"><font size="5">More Details...</font></a></button></p>
+      </div>
+    </div>
+  </div>
+
+
+ 
+  <div class="column">
+    <div class="card">
+      <img src="j.jpeg" alt="Sudhir" style="width:40%">
+      <div class="container">
+       <h2>Jaspreet</h2>
+        <p class="title">Developer & Collector</p>
+        <p>Hello I am Jaspreet Welcome to Helpage</p>
+		
+		<p>Mob : +91 7599841008</p>
+        <p><button class="button"><a href="https://jaspreet123kaur.github.io/cv/"><font size="5">More Details...</font></a></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>   <p class="white-text">© 2023 <a href="logo.jpg" target="_blank">JassVani.</a> All Rights Reserved.</p><hr>
+
+</body>
+</html>
